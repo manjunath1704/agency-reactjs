@@ -5,7 +5,7 @@ function App() {
     <section className='bg-red'>
       <Container>
         <Row>
-          <Col>hello</Col>
+          <Col className='ag-section__heading'>hello</Col>
         </Row>
       </Container>
     </section>

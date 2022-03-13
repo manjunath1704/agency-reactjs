@@ -1,0 +1,20 @@
+#{$ap}- {
+  &section {
+    &__ {
+      &subheading {
+        text-transform: uppercase;
+        color: var(--color-app);
+        font-family: var(--body-font);
+        font-size: var(--text-md);
+      }
+      &heading {
+        text-transform: capitalize;
+        color: var(--color-brown);
+        font-family: var(--body-font);
+        font-size: var(--text-4xl);
+        font-weight: var(--font-normal);
+        line-height: 64px;
+      }
+    }
+  }
+}

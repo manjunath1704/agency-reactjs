@@ -1,4 +1,4 @@
-$ap: ".pp";
+$ap: ".ag";
 
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
@@ -14,8 +14,8 @@ $breakpoints: (
 );
 
 :root {
-  --body-font: "Poppins", sans-serif;
-  --head-font: "Poppins", sans-serif;
+  --body-font: "Epilogue", sans-serif;
+  --head-font: "Epilogue", sans-serif;
 
   --text-base: 0.25rem;
   --text-xxs: 10px;
@@ -90,14 +90,14 @@ $breakpoints: (
   --section-spacing: 120px;
 
   //colors
-  --color-app: #5e30cf;
+  --color-app: #ef6d58;
   --color-text: #2f2f2f;
   --color-black: #111111;
   --color-gray: #efefef;
   --color-gray1: #c3c3c3;
   --color-gray2: #707070;
-}
-
-.bg-red {
-  background-color: red;
+  --color-brown: #391400;
+  // background
+  --bg-secondary: #28293e;
+  --bg-primary: #fdf0e9;
 }
